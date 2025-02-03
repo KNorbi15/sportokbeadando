@@ -1,0 +1,91 @@
+@keyframes animacio{
+    from{width: 10vw;}
+    to{width: 92vw;}
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(13, 27, 42);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 33% 33% 33%;
+}
+header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: 5vh;
+    background-color: rgb(13, 27, 42);
+    border-radius: 25px;
+}
+header{
+    animation-name:animacio ;
+    animation-duration: 5s;
+}
+
+.tartalom img{
+    height: 25vh;
+    border-radius: 1vh;
+    display: flex;
+    margin: auto;
+    border: solid 1px rgb(119, 141, 169);
+
+}
+div:nth-child(4) ul{
+    float: left;
+    
+}
+.listak{
+    display: inline-block;
+
+}
+body{
+    padding: 1vh;
+    background-color: rgb(119, 141, 169);
+    color: rgb(224, 225, 221);
+}
+div{
+    padding: 2vh;
+}
+
+header div ul{
+    display: inline;
+}
+header div ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 225, 221);
+}
+
+.tartalom div {
+    background-color: rgb(13, 27, 42);
+}
+.tartalom h3{
+    color: rgb(65, 90, 119);
+}
+td,th,table{
+    border: solid 1px rgb(119, 141, 169);
+    border-collapse:collapse;
+    padding: 2px;
+    height: 30%;
+}
+iframe{
+    height: fit-content;
+    margin: auto;
+}

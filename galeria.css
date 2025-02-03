@@ -1,0 +1,65 @@
+@keyframes animacio{
+    from{width: 10vw;}
+    to{width: 92vw;}
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(13, 27, 42);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: 5vh;
+    background-color: rgb(13, 27, 42);
+    border-radius: 25px;
+}
+header{
+    animation-name:animacio ;
+    animation-duration: 5s;
+}
+body{
+    padding: 1vh;
+    background-color: rgb(119, 141, 169);
+    color: rgb(224, 225, 221);
+}
+div{
+    padding: 2vh;
+}
+
+header div ul{
+    display: inline;
+}
+header div ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 225, 221);
+}
+img{
+    width: 30vw;
+    display: flex;
+    margin: auto;
+}
+.tartalom{
+    background-color: rgb(13, 27, 42);
+}
